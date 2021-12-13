@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mindol's Web Practice 2</title>
+        <meta charset='utf-8'>
+        <style>
+            td {
+                border: 2px solid black;
+            }
+            #board {
+                background-color: gray;
+            }
+        </style>
+        <script src="game.js"></script>
+    </head>
+    <body>
+        <h1>테이블 레이아웃</h1>
+        <button id="start_button" type="button" onclick="reset(); makeTable();">시작</button>
+        <hr>
+        <div id="board_area"></div> <!-- 테이블 -->
+        <h2 id="status"></h2>
+    </body>
+</html>
